@@ -5,7 +5,7 @@
   Author: Andrey Morkovin
   Plugin URI: https://t.me/miminapifet
   Author URI: http://www.sdelaysite.com
-  Version: 1.2
+  Version: 1.3
  */
 
 add_action( 'wp_head', 'head_seo_meta_tags' );
@@ -14,7 +14,7 @@ function head_seo_meta_tags(){
 		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 		if ($paged > 1) {
 			echo "\n<!--Морковный ноиндекс-->\n";
-			echo '<meta name="robots" content="noindex,follow"/>';
+			echo '<meta name="yandex" content="noindex,follow"/>';
 			echo "\n<!--/Морковный ноиндекс-->\n\n";
 		}
 	}
