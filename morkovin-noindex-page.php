@@ -1,7 +1,7 @@
 <?php
 /*
   Plugin Name: Морковный ноиндекс для пагинации
-  Description: Выводит noindex follow на пагинационных страницах в рубриках и метках
+  Description: Выводит noindex follow на пагинационных страницах в рубриках и метках.
   Author: Andrey Morkovin
   Plugin URI: https://t.me/miminapifet
   Author URI: http://www.sdelaysite.com
