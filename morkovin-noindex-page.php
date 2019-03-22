@@ -14,7 +14,7 @@ function head_seo_meta_tags(){
 		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 		if ($paged > 1) {
 			echo "\n<!--Морковный ноиндекс-->\n";
-			echo '<meta name="yandex" content="noindex,follow"/>';
+			echo '<meta name="robots" content="noindex,follow"/>';
 			echo "\n<!--/Морковный ноиндекс-->\n\n";
 		}
 	}
