@@ -5,7 +5,7 @@
   Author: Andrey Morkovin
   Plugin URI: https://t.me/morkovin_verstka
   Author URI: http://www.sdelaysite.com
-  Version: 1.3
+  Version: 1.4
  */
 
 add_action( 'wp_head', 'head_seo_meta_tags' );
