@@ -5,7 +5,7 @@
   Author: Andrey Morkovin
   Plugin URI: https://t.me/morkovin_verstka
   Author URI: http://www.sdelaysite.com
-  Version: 1.5
+  Version: 1.6
  */
 
 add_action( 'wp_head', 'mnp_head_seo_meta_tags' );
@@ -32,6 +32,7 @@ function mnp_remove_yoast_meta_index_get_clean() {
 		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 		if ($paged > 1) {
 			$wp_head_content = str_replace('<meta name="robots" content="index, follow" />', '', $wp_head_content);
+			$wp_head_content = str_replace('<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />', '', $wp_head_content);
 			$wp_head_content = str_replace('<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />', '', $wp_head_content);
 			$wp_head_content = str_replace('<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />', '', $wp_head_content);
 		}
