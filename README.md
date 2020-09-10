@@ -10,7 +10,7 @@
 
 10 сентября 2020 г. Версия 1.6. Свежая версия Yoast SEO изменила инструкцию, добавлявшую пагинационные страницы в индекс. Я внес изменения в плагин и теперь инструкция от Yoast SEO удаляется.
 
-[Скачать плагин](https://github.com/amorkovin/morkovin-noindex-page/archive/1.6releasezip.zip)
+[Скачать плагин](https://github.com/amorkovin/morkovin-noindex-page/archive/1.6zip_to_wp.zip)
 
 ## Возможные проблемы
 
